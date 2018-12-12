@@ -52,13 +52,15 @@ Estimated time to complete this lab:  **90** **minutes**.
 
 ## Exercise 2: Build image classify project by custom vision service
 
-1. Open <https://customvision.ai/> by Microsoft Edge
+1. Download and unzip `customvision.zip`  to C drive from https://iothubstorageaccts.blob.core.windows.net/cvpic/customvision.zip
 
-2. Click sign in with provided azure subscription account. You will see below page once login. 
+2. Open <https://customvision.ai/> by Microsoft Edge
+
+3. Click sign in with provided azure subscription account. You will see below page once login. 
 
    ![](https://iothubstorageaccts.blob.core.windows.net/cvpic/4.png)
 
-3. Click **NEW PROJECT** provide the requested information about your service as specified in the table below image.
+4. Click **NEW PROJECT** provide the requested information about your service as specified in the table below image.
 
    ![](https://iothubstorageaccts.blob.core.windows.net/cvpic/5.png)
 
@@ -66,7 +68,7 @@ Estimated time to complete this lab:  **90** **minutes**.
 
    Click **Create project**
 
-4. Click **Add images** on the top of panel, locate to folder C;\Lab\customvision\gear_images\axes\, select all of images by **Ctrl + A**, click **Open,** entry **axes** as tag at **My Tag** section
+5. Click **Add images** on the top of panel, locate to folder C;\Lab\customvision\gear_images\axes\, select all of images by **Ctrl + A**, click **Open,** entry **axes** as tag at **My Tag** section
 
    ![](https://iothubstorageaccts.blob.core.windows.net/cvpic/6.png)
 
@@ -76,7 +78,7 @@ Estimated time to complete this lab:  **90** **minutes**.
 
    ![](https://iothubstorageaccts.blob.core.windows.net/cvpic/7.png)
 
-5. Click **Train** at left of top panel to train the model by provide images of each tag
+6. Click **Train** at left of top panel to train the model by provide images of each tag
 
    ![](https://iothubstorageaccts.blob.core.windows.net/cvpic/8.png)
 
@@ -86,7 +88,7 @@ Estimated time to complete this lab:  **90** **minutes**.
 
    You will find **Precision** and **Recall** number of your trained model. Click **Mark Default** at top of panel
 
-6. Click **Quick Test** at left of top panel, entry 
+7. Click **Quick Test** at left of top panel, entry 
 
    <https://www.alpinetrek.co.uk/1500_1500_90/002-0808/berghaus-baffin-island-shell-jacket-hardshell-jacket.jpg>
 
@@ -96,7 +98,7 @@ Estimated time to complete this lab:  **90** **minutes**.
 
    Close output panel. 
 
-7. Verify API by post URL endpoint. Click **Predictions** at top of panel, select result picture you just test, and click delete. Click **View Endpoint**
+8. Verify API by post URL endpoint. Click **Predictions** at top of panel, select result picture you just test, and click delete. Click **View Endpoint**
 
    ![](https://iothubstorageaccts.blob.core.windows.net/cvpic/11.png)
 
